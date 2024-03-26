@@ -1,0 +1,79 @@
+body {
+  background-image: url(../img/bg-default.jpg);
+  height: 150%;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background-color: #bd0000;
+}
+
+.nav-link {
+  color: #e8d5c1 !important;
+}
+
+.nav-link:hover {
+  color: #1d1915 !important;
+}
+
+.btn {
+  background-image: url('../img/black.png');
+  -webkit-mask-image: url('../img/art-hero-inner.svg');
+  -webkit-mask-size: 100%;
+  color: #e8d5c1;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  background-image: url(../img/second.png);
+  color: #1d1915;
+}
+
+.btn-album,
+.btn-foto {
+  -webkit-mask-image: url('../img/art-square-3-inner.svg');
+  -webkit-mask-size: 100%;
+  color: #e8d5c1 !important;
+}
+
+.btn-album:hover {
+  color: #1d1915 !important;
+}
+
+.btn-foto:hover {
+  color: #1d1915 !important;
+}
+
+.btn-category {
+  background-image: url('../img/black.png');
+  -webkit-mask-image: url('../img/art-hero-inner.svg');
+  -webkit-mask-size: 100%;
+  color: #e8d5c1 !important;
+}
+
+.btn-category:hover {
+  transition: 0.3s;
+  background-image: url(../img/red.png);
+  color: #1d1915;
+}
+
+table {
+  overflow: scroll;
+}
+
+footer {
+  background-image: url('../img/black.png');
+  opacity: 0.5;
+  -webkit-mask-image: url('../img/mask-footer.svg');
+  -webkit-mask-size: 35%;
+  color: #e8d5c1;
+}
+
+.card-footer {
+  background-color: #1d1915 !important;
+  color: #e8d5c1;
+}
+
+.pic-link {
+  color: #e8d5c1;
+}

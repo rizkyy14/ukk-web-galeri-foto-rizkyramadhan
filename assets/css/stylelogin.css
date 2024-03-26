@@ -1,0 +1,70 @@
+body {
+  background-image: url(../img/bg-default.jpg);
+  height: 150%;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background: transparent !important;
+}
+
+.nav-link {
+  color: #e8d5c1 !important;
+}
+
+.nav-link:hover {
+  color: #1d1915 !important;
+}
+
+.bungkuslogin {
+  border: 1px solid;
+  border-radius: 50% 10% 50% 10% / 10% 50% 10% 50% !important;
+  background-color: #bd0000;
+  color: #e8d5c1;
+  z-index: 99;
+}
+.bungkusregis {
+  border: 1px solid;
+  border-radius: 10% 50% 10% 50% / 50% 10% 50% 10% !important;
+  background-color: #bd0000;
+  color: #e8d5c1;
+  z-index: 99;
+}
+
+.btn {
+  background-image: url('../img/black.png');
+  -webkit-mask-image: url('../img/art-hero-inner.svg');
+  -webkit-mask-size: 100%;
+  color: #e8d5c1 !important;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  background-image: url('../img/red.png') !important;
+}
+
+.btn-login:hover {
+  transition: 0.3s;
+  background-image: url('../img/second.png') !important;
+  color: #1d1915 !important;
+}
+
+.field-icon {
+  z-index: 99;
+}
+
+footer {
+  background-image: url('../img/black.png');
+  opacity: 0.5;
+  -webkit-mask-image: url('../img/mask-footer.svg');
+  -webkit-mask-size: 35%;
+  color: #e8d5c1;
+}
+
+.card-footer {
+  background-color: #1d1915 !important;
+}
+
+.pic-link {
+  color: #e8d5c1;
+}

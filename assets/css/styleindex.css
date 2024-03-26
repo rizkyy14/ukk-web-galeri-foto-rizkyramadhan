@@ -1,0 +1,46 @@
+body {
+  background-image: url(../img/bg-default.jpg);
+  height: 150%;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  background: transparent !important;
+}
+
+.nav-link {
+  color: #e8d5c1 !important;
+}
+
+.nav-link:hover {
+  color: #1d1915 !important;
+}
+
+.btn {
+  background-image: url('../img/black.png');
+  -webkit-mask-image: url('../img/art-square-2-inner.svg');
+  -webkit-mask-size: 100%;
+  color: #e8d5c1;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  background-image: url(../img/second.png);
+  color: #1d1915;
+}
+
+footer {
+  background-image: url('../img/black.png');
+  opacity: 0.5;
+  -webkit-mask-image: url('../img/mask-footer.svg');
+  -webkit-mask-size: 35%;
+  color: #e8d5c1;
+}
+
+.card-footer {
+  background-color: #1d1915 !important;
+}
+
+.pic-link {
+  color: #e8d5c1;
+}
